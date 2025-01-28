@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #000000;
+}
+
+/* h1 */
+h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: #f1f1f1;
+}
+
+/* #subtitle */
+#subtitle {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #f1f1f1;
+}
+
+/* .flexboxContainer */
+.flexboxContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  padding: 20px;
+}
+
+/*.flexboxContainer > div */
+.flexboxContainer > div {
+  width: 22%;
+  height: auto;
+  background: linear-gradient(to bottom, #8b5a2b, #1e1e1e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #f1f1f1;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.flexboxContainer > div h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+  font-size: 24px;
+}
+
+.flexboxContainer > div p {
+  font-family: "Montserrat", sans-serif;
+  color: #f1f1f1;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* img */
+img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+/* .flexboxContainer > div:hover */
+.flexboxContainer > div:hover {
+  background-color: black;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.8);
+}
